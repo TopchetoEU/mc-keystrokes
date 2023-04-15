@@ -1,0 +1,6 @@
+accessWidener   v1      named
+
+accessible      field   net/minecraft/client/gui/hud/InGameHud  scaledWidth     I
+accessible      field   net/minecraft/client/gui/hud/InGameHud  scaledHeight    I
+accessible      field   net/minecraft/client/option/KeyBinding  keyToBindings   Ljava/util/Map;
+accessible      field   net/minecraft/client/option/KeyBinding  keysById        Ljava/util/Map;
