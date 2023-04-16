@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.9-SNAPSHOT'
+	id 'fabric-loom' version '1.1-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -36,7 +36,7 @@ processResources {
 }
 
 loom {
-    accessWidener = file("src/main/resources/keystrokes.accesswidener")
+    accessWidenerPath = file("src/main/resources/keystrokes.accesswidener")
 }
 
 tasks.withType(JavaCompile).configureEach {

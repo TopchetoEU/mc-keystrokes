@@ -1,29 +1,29 @@
 {
-  "schemaVersion": 1,
-  "id": "keystrokes",
-  "version": "${version}",
+    "schemaVersion": 1,
+    "id": "keystrokes",
+    "version": "${version}",
 
-  "name": "Keystrokes for Fabric",
-  "description": "The same as the Keystrokes Forge mod, but for Fabric",
-  "authors": [ "TopchetoEU" ],
+    "name": "Keystrokes for Fabric",
+    "description": "A Minecraft Fabric mod that adds the well-known keystrokes overlay",
+    "authors": [ "TopchetoEU" ],
 
-  "license": "GPL3",
-  "icon": "assets/keystrokes/icon.png",
+    "license": "MIT",
+    "icon": "assets/keystrokes/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "me.topchetoeu.keystrokes.Keystrokes"
-    ]
-  },
-  "mixins": [
-    "keystrokes.mixins.json"
-  ],
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "me.topchetoeu.keystrokes.Keystrokes"
+        ]
+    },
+    "mixins": [
+        "keystrokes.mixins.json"
+    ],
 
-  "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.16.x",
-    "java": ">=16"
-  }
+    "depends": {
+        "fabricloader": ">=0.14.19",
+        "fabric": "*",
+        "minecraft": "1.16.x",
+        "java": ">=16"
+    }
 }
