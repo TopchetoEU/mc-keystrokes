@@ -1,18 +1,16 @@
-*
+/*
 
-!src
-!src/**/*
+!/src
+!/images
 
-!images
-!images/**/*
+!/gradle/
+!/gradle/wrapper/
+/gradle/wrapper/*
+!/gradle/wrapper/gradle-wrapper.properties
 
-!gradle
-!gradle/**/*
-
-!.gitignore
-!build.gradle
-!gradle.properties
-!gradlew
-!gradlew.bat
-!README.md
-!settings.gradle
+!/.gitignore
+!/build.gradle.kts
+!/settings.gradle.kts
+!/gradle.properties
+!/README.md
+!/LICENSE
