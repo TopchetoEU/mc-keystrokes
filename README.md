@@ -4,8 +4,8 @@ This mod adds the well-known keystrokes overlay (https://sk1er.club/mods/keystro
 
 ## Screenshots
 
-<img width="400" src="images/1.png" alt="Example 1"/>
-<img width="400" src="images/2.png" alt="Example 1"/>
+![Example 1](images/1.png)
+![Example 2](images/2.png)
 
 ## Features
 
